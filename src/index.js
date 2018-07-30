@@ -28,13 +28,30 @@ export class OlderCoaster extends Component {
 }
 
 export class InFrontOfYou extends Component {
-  <div>
-  
-  </div>
+  render() {
+    return (
+      <div>
+        <p>You shouldn&#x27;t look too far.</p>
+        <p>Sometimes, the solution is right in front of you.</p>
+      </div>
+    )
+  }
 }
 
 export class ButcherShop extends Component {
-  // your code here
+  render() {
+    return (
+      <div class="butcher-shop">
+        <p>Hello! We have the following products for sale today:</p>
+        <ul>
+          <li>Tenderloin</li>
+          <li>Short ribs</li>
+          <li>Beef shin</li>
+          <li>Ribeye</li>
+        </ul>
+      </div>
+    )
+  }
 }
 
 
